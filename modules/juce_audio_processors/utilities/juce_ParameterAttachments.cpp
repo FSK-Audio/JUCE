@@ -68,8 +68,8 @@ void ParameterAttachment::setValueAsCompleteGesture (float newDenormalisedValue)
 
 void ParameterAttachment::beginGesture()
 {
-    if (undoManager != nullptr)
-        undoManager->beginNewTransaction();
+    //if (undoManager != nullptr)
+    //    undoManager->beginNewTransaction();
 
     parameter.beginChangeGesture();
 }
